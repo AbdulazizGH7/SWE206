@@ -32,7 +32,11 @@ public class Sorter {
         }  
     }
 
-    public void sort(int array[]){
+    public void inSort(int array[]){
         insertionSort(array);
+    }
+
+    public void sort(int array[]){
+        selectionSort(array);
     }
 }
